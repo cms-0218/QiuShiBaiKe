@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JAV-7Q-i2U" customClass="RefreshView" customModule="QiuShiBaiKe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fh5-q4-iO1" userLabel="Button">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+                    <animations/>
+                    <state key="normal" title="点击加载更多">
+                        <color key="titleColor" red="0.79853157720000001" green="0.36872331489999999" blue="0.2720747234" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClicked:" destination="JAV-7Q-i2U" eventType="touchUpInside" id="2KV-GA-OzH"/>
+                    </connections>
+                </button>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="aHb-2e-qmm" userLabel="Indicator">
+                    <rect key="frame" x="142" y="-1" width="37" height="37"/>
+                    <animations/>
+                    <color key="color" red="0.79853157722513091" green="0.36872331492093657" blue="0.27207472344112649" alpha="1" colorSpace="calibratedRGB"/>
+                </activityIndicatorView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+            <connections>
+                <outlet property="button" destination="fh5-q4-iO1" id="ZM3-5g-bNW"/>
+                <outlet property="indicator" destination="aHb-2e-qmm" id="IBR-EF-AT0"/>
+            </connections>
+            <point key="canvasLocation" x="517" y="88.5"/>
+        </view>
+    </objects>
+</document>

@@ -18,4 +18,11 @@ class JokeCell : UITableViewCell {
     @IBOutlet weak var dislikeLabel: UILabel!
     @IBOutlet weak var commentLabel: UILabel!
     
+    
+    var data : NSDictionary!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
 }
