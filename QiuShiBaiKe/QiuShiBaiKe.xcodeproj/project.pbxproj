@@ -11,11 +11,18 @@
 		1264001E1C1BEB0200E5270C /* JokeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1264001D1C1BEB0200E5270C /* JokeCell.xib */; };
 		126400201C1BF48E00E5270C /* RrefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264001F1C1BF48E00E5270C /* RrefreshView.swift */; };
 		126400221C1BF55000E5270C /* RrefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126400211C1BF55000E5270C /* RrefreshView.xib */; };
+		126400261C1C059F00E5270C /* FileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126400251C1C059F00E5270C /* FileUtility.swift */; };
+		126400281C1C061000E5270C /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126400271C1C061000E5270C /* aboutViewController.swift */; };
+		1264002A1C1C098000E5270C /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126400291C1C098000E5270C /* UIViewExt.swift */; };
 		12742F9D1C1BB6E4001F363C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12742F9C1C1BB6E4001F363C /* AppDelegate.swift */; };
 		12742FA41C1BB6E4001F363C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12742FA31C1BB6E4001F363C /* Assets.xcassets */; };
 		12742FB41C1BBED4001F363C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12742FB31C1BBED4001F363C /* MainViewController.swift */; };
-		12742FB71C1BBFB8001F363C /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12742FB61C1BBFB8001F363C /* aboutViewController.swift */; };
 		12742FB91C1BC0DB001F363C /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12742FB81C1BC0DB001F363C /* MainTableViewController.swift */; };
+		12BDCE621C1D010E00315BF7 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BDCE611C1D010E00315BF7 /* UIViewControllerExt.swift */; };
+		12BDCE661C1D0E3E00315BF7 /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BDCE651C1D0E3E00315BF7 /* HttpController.swift */; };
+		12BDCE681C1D0F0300315BF7 /* NSDictionaryExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BDCE671C1D0F0300315BF7 /* NSDictionaryExt.swift */; };
+		12F83ADB1C1D283A009C41AF /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F83ADA1C1D283A009C41AF /* UIImageViewExt.swift */; };
+		12F83ADD1C1D28AA009C41AF /* NSStringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F83ADC1C1D28AA009C41AF /* NSStringExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +30,20 @@
 		1264001D1C1BEB0200E5270C /* JokeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JokeCell.xib; sourceTree = "<group>"; };
 		1264001F1C1BF48E00E5270C /* RrefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RrefreshView.swift; sourceTree = "<group>"; };
 		126400211C1BF55000E5270C /* RrefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RrefreshView.xib; sourceTree = "<group>"; };
+		126400251C1C059F00E5270C /* FileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileUtility.swift; path = Utility/FileUtility.swift; sourceTree = "<group>"; };
+		126400271C1C061000E5270C /* aboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aboutViewController.swift; path = ViewControllers/aboutViewController.swift; sourceTree = "<group>"; };
+		126400291C1C098000E5270C /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExt.swift; path = Utility/UIViewExt.swift; sourceTree = "<group>"; };
 		12742F991C1BB6E4001F363C /* QiuShiBaiKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiuShiBaiKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12742F9C1C1BB6E4001F363C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12742FA31C1BB6E4001F363C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12742FA81C1BB6E4001F363C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12742FB31C1BBED4001F363C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ViewControllers/MainViewController.swift; sourceTree = "<group>"; };
-		12742FB61C1BBFB8001F363C /* aboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
 		12742FB81C1BC0DB001F363C /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = ViewControllers/MainTableViewController.swift; sourceTree = "<group>"; };
+		12BDCE611C1D010E00315BF7 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		12BDCE651C1D0E3E00315BF7 /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpController.swift; path = Utility/HttpController.swift; sourceTree = "<group>"; };
+		12BDCE671C1D0F0300315BF7 /* NSDictionaryExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDictionaryExt.swift; path = Utility/NSDictionaryExt.swift; sourceTree = "<group>"; };
+		12F83ADA1C1D283A009C41AF /* UIImageViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageViewExt.swift; path = Utility/UIImageViewExt.swift; sourceTree = "<group>"; };
+		12F83ADC1C1D28AA009C41AF /* NSStringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSStringExt.swift; path = Utility/NSStringExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +100,8 @@
 		12742FAF1C1BBC58001F363C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				126400271C1C061000E5270C /* aboutViewController.swift */,
 				12742FB31C1BBED4001F363C /* MainViewController.swift */,
-				12742FB61C1BBFB8001F363C /* aboutViewController.swift */,
 				12742FB81C1BC0DB001F363C /* MainTableViewController.swift */,
 			);
 			name = ViewControllers;
@@ -96,6 +110,13 @@
 		12742FB01C1BBC61001F363C /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				12F83ADC1C1D28AA009C41AF /* NSStringExt.swift */,
+				12F83ADA1C1D283A009C41AF /* UIImageViewExt.swift */,
+				12BDCE671C1D0F0300315BF7 /* NSDictionaryExt.swift */,
+				12BDCE651C1D0E3E00315BF7 /* HttpController.swift */,
+				126400291C1C098000E5270C /* UIViewExt.swift */,
+				126400251C1C059F00E5270C /* FileUtility.swift */,
+				12BDCE611C1D010E00315BF7 /* UIViewControllerExt.swift */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -172,12 +193,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126400261C1C059F00E5270C /* FileUtility.swift in Sources */,
+				12BDCE661C1D0E3E00315BF7 /* HttpController.swift in Sources */,
 				12742FB91C1BC0DB001F363C /* MainTableViewController.swift in Sources */,
+				12BDCE621C1D010E00315BF7 /* UIViewControllerExt.swift in Sources */,
+				12F83ADB1C1D283A009C41AF /* UIImageViewExt.swift in Sources */,
 				1264001C1C1BE9D600E5270C /* JokeCell.swift in Sources */,
+				12BDCE681C1D0F0300315BF7 /* NSDictionaryExt.swift in Sources */,
+				126400281C1C061000E5270C /* aboutViewController.swift in Sources */,
+				1264002A1C1C098000E5270C /* UIViewExt.swift in Sources */,
 				126400201C1BF48E00E5270C /* RrefreshView.swift in Sources */,
 				12742FB41C1BBED4001F363C /* MainViewController.swift in Sources */,
 				12742F9D1C1BB6E4001F363C /* AppDelegate.swift in Sources */,
-				12742FB71C1BBFB8001F363C /* aboutViewController.swift in Sources */,
+				12F83ADD1C1D28AA009C41AF /* NSStringExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

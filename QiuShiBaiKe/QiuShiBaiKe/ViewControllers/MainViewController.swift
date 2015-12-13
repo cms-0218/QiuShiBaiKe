@@ -36,6 +36,7 @@ class MainViewController: UITabBarController {
     {
         super.viewDidLoad()
         setupViews()
+        initViewControllers()
     }
     
     func setupViews()
@@ -103,6 +104,17 @@ class MainViewController: UITabBarController {
         self.selectedIndex = index-100
     }
     
+    func initViewControllers()
+    {
+        let vc1 = MainTableViewController()
+        vc1.jokeType = .NewestJoke
+        //let vc2 = MainTableViewController()
+        //vc2.jokeType = .HotJoke
+        //let vc3 = MainTableViewController()
+        //vc3.jokeType = .ImageTruth
+        //let vc4 = YRAboutViewController(nibName: "YRAboutViewController", bundle: nil)
+        self.viewControllers = [vc1]
+    }
     
     
     override func didReceiveMemoryWarning()

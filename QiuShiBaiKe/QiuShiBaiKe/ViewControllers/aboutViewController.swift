@@ -8,7 +8,7 @@
 
 import UIKit
 
-class YRAboutViewController: UIViewController {
+class AboutViewController: UIViewController {
     
     @IBAction func followMe()
     {
