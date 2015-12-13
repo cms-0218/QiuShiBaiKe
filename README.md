@@ -7,4 +7,4 @@
 
 ## Features
 1. 基于swift 2.1
-2. 不使用storyboard，只有少数界面使用xib形式
+2. 练习了使用NSURLSession代替了NSURLConnection

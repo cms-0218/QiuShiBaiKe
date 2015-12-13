@@ -130,15 +130,15 @@ class  MainTableViewController:UIViewController,UITableViewDelegate,UITableViewD
     
     func urlString()->String
     {
-        if jokeType == .HotJoke //最热糗事
+        if jokeType == .HotJoke
         {
             return "http://m2.qiushibaike.com/article/list/suggest?count=10&page=\(page)"
         }
-        else if jokeType == .NewestJoke //最新糗事
+        else if jokeType == .NewestJoke
         {
             return "http://m2.qiushibaike.com/article/list/latest?count=10&page=\(page)"
         }
-        else//有图有真相
+        else
         {
             return "http://m2.qiushibaike.com/article/list/imgrank?count=10&page=\(page)"
         }

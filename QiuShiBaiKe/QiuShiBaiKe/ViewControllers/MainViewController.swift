@@ -108,12 +108,11 @@ class MainViewController: UITabBarController {
     {
         let vc1 = MainTableViewController()
         vc1.jokeType = .NewestJoke
-        //let vc2 = MainTableViewController()
-        //vc2.jokeType = .HotJoke
-        //let vc3 = MainTableViewController()
-        //vc3.jokeType = .ImageTruth
-        //let vc4 = YRAboutViewController(nibName: "YRAboutViewController", bundle: nil)
-        self.viewControllers = [vc1]
+        let vc2 = MainTableViewController()
+        vc2.jokeType = .HotJoke
+        let vc3 = MainTableViewController()
+        vc3.jokeType = .ImageTruth
+        self.viewControllers = [vc1,vc2,vc3]
     }
     
     
