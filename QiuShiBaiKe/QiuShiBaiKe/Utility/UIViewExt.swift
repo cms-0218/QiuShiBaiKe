@@ -77,13 +77,5 @@ extension UIView  {
         self.frame = rect
     }
     
-    class func showAlertView(title:String,message:String)
-    {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .Alert)
-        let action = UIAlertAction(title: "OK", style:UIAlertActionStyle.Default, handler: nil)
-        alert.addAction(action)
-        
-    }
-    
-    
+      
 }
