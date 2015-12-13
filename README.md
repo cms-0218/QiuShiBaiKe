@@ -8,3 +8,7 @@
 ## Features
 1. 基于swift 2.1
 2. 练习了使用NSURLSession代替了NSURLConnection
+
+
+## Demo
+![image](https://github.com/cms-0218/QiuShiBaiKe/raw/master/demo.git)
