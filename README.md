@@ -11,4 +11,4 @@
 
 
 ## Demo
-![image](https://github.com/cms-0218/QiuShiBaiKe/raw/master/demo.git)
+![image](https://github.com/cms-0218/QiuShiBaiKe/raw/master/demo.gif)
